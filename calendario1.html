@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <tdnk rel="stylesheet" type="text/css" href="CSS/hoja1.css" media="screen"/>
+</head>
+
+<style>
+    *{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .container{
+        background:#F5F5F5;
+        border-style:solid;
+        border-color:rgb(29, 155, 197);
+        border-width: 2px;
+    }
+    .mes{
+        text-align:left;
+        color: black;
+        position: relative; bottom: 20px;
+        font-size: small;
+        
+    }
+    .calendario{
+        text-align: left;   
+        background: rgb(29, 155, 197);
+        padding-top: 0px;
+        position: relative; bottom: 10px;
+
+    }
+    h1.calendarioText{
+        color: white;
+        font-size: 15px;
+    }
+    .diaSemana{
+        background: rgba(211, 211, 211, 0.452);
+        font-size: small;
+
+    }
+    .dias{
+        background: rgba(211, 211, 211, 0.897);
+        border-color: red;
+
+    }
+    .table, th, td{
+        table-layout: fixed;
+        text-align: center;
+        font-size: 15px;
+        border-collapse:collapse;
+        font-size: small;
+        font-style:normal;
+    }
+    th{
+        background-color:rgb(211, 211, 211);
+        color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    tr{
+        background-color:rgb(235, 235, 235)
+    }
+    td{
+        color:black;
+        padding: 25px;
+        font-size: 10px;
+    }
+    td.diaInvisible{
+        color:rgba(124, 121, 121, 0.479);
+    }
+</style>
+
+<title>Calendario</title>
+<div class="container">
+
+    <div class="calendario">
+        <h1 class="calendarioText">Calendario</h1>
+    </div>
+
+    <div class="mes">Agosto 2013</div> 
+
+    <table class="diaSemana">
+        <th>DOM</th>
+        <th>LUN</th>
+        <th>MAR</th>
+        <th>MIE</th>
+        <th>JUE</th>
+        <th>VIE</th>
+        <th>SAB</th>
+        <tr>
+            <td class="diaInvisible">28</td>
+            <td class="diaInvisible">29</td>
+            <td class="diaInvisible">30</td>
+            <td class="diaInvisible">31</td>
+            <td><span class="dia1">1</span></td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td><span class="dia10">10</span></td>
+        </tr>
+        <tr>
+            <td><span class="dia11">11</span></td>
+            <td><span class="dia12">12</span></td>
+            <td><span class="dia13">13</span></td>
+            <td>14</td>
+            <td><span class="dia15">15</span></td>
+            <td><span class="dia16">16</span></td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td class="diaInvisible">1</td>
+            <td class="diaInvisible">2</td>
+            <td class="diaInvisible">3</td>
+            <td class="diaInvisible">4</td>
+            <td class="diaInvisible">5</td>
+            <td class="diaInvisible">6</td>
+            <td class="diaInvisible">7</td>
+        </tr>
+    </table>
+</div>
